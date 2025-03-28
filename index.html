@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hearts & Stars Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hearts & Stars Game</h1>
+        <div class="game-options">
+            <label class="switch">
+                <input type="checkbox" id="computerOpponentToggle" checked>
+                <span class="slider round"></span>
+            </label>
+            <span class="toggle-label">Play against computer</span>
+        </div>
+        <div class="status" id="status">Heart's turn</div>
+        <div class="board" id="board">
+            <div class="cell" data-cell-index="0"></div>
+            <div class="cell" data-cell-index="1"></div>
+            <div class="cell" data-cell-index="2"></div>
+            <div class="cell" data-cell-index="3"></div>
+            <div class="cell" data-cell-index="4"></div>
+            <div class="cell" data-cell-index="5"></div>
+            <div class="cell" data-cell-index="6"></div>
+            <div class="cell" data-cell-index="7"></div>
+            <div class="cell" data-cell-index="8"></div>
+        </div>
+        <button id="restartButton">Restart Game</button>
+    </div>
+    <script src="audio.js"></script>
+    <script src="confetti.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
