@@ -22,4 +22,5 @@ A simple, modern Tic Tac Toe (X and 0) game built with HTML, CSS, and JavaScript
 - `index.html` - The structure of the game
 - `style.css` - The styling for the game
 - `script.js` - The game logic
-# tictactoe
+
+# [PLAY](index.html)
